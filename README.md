@@ -1,4 +1,7 @@
 # GI_Tract_Classification
+
+Download the required files from: https://drive.google.com/drive/folders/1BF8QKF0188WNMGi__y0lwrbp5d_xctds?usp=drive_link
+
 The notebook begins with the necessary environment setup, ensuring TensorFlow 2.16.1 is the working version. 
 It then proceeds to load and preprocess the image data. The dataset includes: 
 -	Training set: 1500 images 
