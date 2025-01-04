@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/fdcf5bb5-cfda-4d89-abf9-d50adb2105a7)# GI_Tract_Classification
+# GI_Tract_Classification
 The notebook begins with the necessary environment setup, ensuring TensorFlow 2.16.1 is the working version. 
 It then proceeds to load and preprocess the image data. The dataset includes: 
 -	Training set: 1500 images 
@@ -35,3 +35,12 @@ Training involves monitoring the validation loss to prevent overfitting. TensorF
 -	The model was customized by removing the top layer and adding a global average pooling layer followed by a dense softmax layer to suit the four-class classification task.
 -	The model was compiled using the Adam optimizer and categorical cross-entropy loss function.
 -	Training involved monitoring validation loss to prevent overfitting, and common TensorFlow warnings were addressed for optimal performance
+
+##Accuracy
+![image](https://github.com/user-attachments/assets/82973147-ef8c-4477-8f71-646086e9e4ca)
+
+##Loss
+![image](https://github.com/user-attachments/assets/1043bb69-5a88-41c0-8981-1365158d5839)
+
+##Performance
+![image](https://github.com/user-attachments/assets/abf263fe-19cb-429e-97fe-7f994f31a983)
